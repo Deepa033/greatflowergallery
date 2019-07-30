@@ -1,0 +1,69 @@
+body {
+	background-color: DarkKhaki;
+	color: Brown;
+	text-align: center;
+	font-size: 24px;
+	font-family: cooper, Arial;
+	padding: 0px;
+	margin: 0px;
+}
+
+.nav {
+background-color: Aquamarine;
+color: Cornsilk;	
+}
+
+.nav ul{
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+	font-size: 1px;
+}
+
+.nav ul li{
+	padding: 16px;
+	text-align: center;
+	font-size: 1.2rem;
+	border-bottom: 1px solid black;
+	transition: background-color 0.2s;
+}
+.nav ul li: hover {
+	background-color: black;
+}
+	.image-area{
+	background-color: black;
+	background-position: center center;
+	background-size: cover;
+	padding-top: 200px;
+	padding-bottom: 200px;
+}
+.centered-container 
+	max-width: 1020px;
+	margin: 0px auto;
+	padding: 0px 16px;
+}
+.image-text {
+	text-align: center;
+	background-color: black;
+	color: white;
+	font-size: 2.5rem;
+	max-width: 1020px;
+	margin: 0px auto;
+	padding: 0px 16px;
+
+}
+@media screen and (min-width: 700px) {
+	.nav ul {
+		text-align: right;
+	}
+}
+	.nav ul li {
+		display: inline-block;
+		border-bottom: 0px;
+		border-left: 1px solid black;
+		text-align: left;
+	}
+	.single-Service{
+		width: 50%;
+		float: left;
+}
